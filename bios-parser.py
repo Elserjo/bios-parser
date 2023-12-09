@@ -7,6 +7,7 @@ import sys
 
 # https://stackoverflow.com/questions/3276040/how-can-i-use-the-python-htmlparser-library-to-extract-data-from-a-specific-div
 
+# linkExample = "https://bios-fix.com/index.php?forums/dell-bios-password-remove.236"
 regularExpression = r'(?i)(Unlock bios password for )(?P<notebookName>[\s\S]+)'
 
 class MyHTMLParser(HTMLParser):
